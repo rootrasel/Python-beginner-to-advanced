@@ -2,10 +2,10 @@
 
 
 # Concatenation:
-# "hello" + "world" → "helloworld"
+"hello" + "world" # → "helloworld"
 
 # Length of string:
-# len("hello") → 5
+len("hello") #  → 5
 
 # Accessing characters (Indexing):
 text = "hello"

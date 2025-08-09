@@ -10,10 +10,6 @@ print(f"You are {age} years old.")
 height = float(input("Enter your height in meters: "))
 print(f"Your height is {height} meters.")
 
-# list input
-numbers = input("Enter a list of numbers separated by spaces: ")
-numbers_list = [int(num) for num in numbers.split()]
-print(f"You entered the numbers: {numbers_list}")
 
 # boolean input
 is_student = input("Are you a student? (yes/no): ").strip().lower()
@@ -31,6 +27,11 @@ print(f"You entered: a={a}, b={b}, c={c}")
 # Multiple float inputs in one line
 x, y, z = map(float, input("Enter three float numbers separated by spaces: ").split())
 print(f"You entered: x={x}, y={y}, z={z}")
+
+# list input
+numbers = input("Enter a list of numbers separated by spaces: ")
+numbers_list = [int(num) for num in numbers.split()]
+print(f"You entered the numbers: {numbers_list}")
 
 # Tuple input
 tuple_input = input("Enter a tuple of numbers separated by commas: ")
